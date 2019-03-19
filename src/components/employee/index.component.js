@@ -33,7 +33,7 @@ export default class Index extends Component{
             <div>
                <h3 align="center">Employee List</h3>
                <div style={{marginTop : 10}}>
-                 <Link to={"/create"} className="btn btn-primary">Add</Link>
+                 <Link to={"/create"} className="link"> +Add New Employee</Link>
                </div>
                <table className="table table-striped" style={{marginTop : 20}}>
                  <thead>
